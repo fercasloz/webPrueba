@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNews</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+</head>
+
+<body>
+
+    <div class="registro">
+
+        <form action="" method="post" >
+            <label>Usuario: 
+                <br>
+            <input type="text" placeholder="usuario" name="username" pattern="[A-Za-z ]{1,30}" title="Solo carácteres alfabéticos aceptados y 30 maximos" required> </label><br>
+                <br>
+            <label>Contraseña: 
+                <br>
+            <input type="password" placeholder="contraseña" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="La contraseñaa debe contenter una minuscula, una mayuscula, un numero y tener mínimo 6 caracteres"  required> </label><br>
+                <br>
+            <label>Correo: 
+                <br>
+            <input type="email" placeholder="email" name="email" required></label>
+                <br>
+                <br>
+            <input type="submit"  value="Registrarse.">
+        </form>
+
+    </div>
+
+</body>
